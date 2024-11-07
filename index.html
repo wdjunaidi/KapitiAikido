@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kapiti Aikido</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Home page of Kapiti Aikido">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <header>
+    <div class="banner">
+      <img src="img/kapiti-aikido.jpg" alt="Aikido Banner" class="aikido-logo">
+      <span>Aikido Kapiti</span>
+    </div>
+  </header>
+
+  <main>
+    <div id="menu-wrapper">
+      <button class="menu-toggle">&#9776;</button>
+      <nav>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#instructors">Instructors</a></li>
+          <li><a href="more.html#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <section id="intro">
+        Kapiti Aikido practice Iwama style aikido. See <a href="more.html">About</a> page to learn more about this style or Aikido.
+      </section>
+
+      <section id="contact">
+        <h2>Contact Information</h2>
+        <p><b>Email:</b> <a href="mailto:aikidokapiti@gmail.com">aikidokapiti@gmail.com</a></p>
+        <p><b>Address:</b> Waikanae Park Wrestling Club, Waikanae 5036, New Zealand</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.8999130912807!2d175.04683631238706!3d-40.87407061494315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d40a3ce23fe3cbb%3A0x8ce8cfb37b812f5d!2sWaikanae%20Park%20Wrestling%20Club!5e0!3m2!1sen!2snz!4v1719894994730!5m2!1sen!2snz"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </section>
+
+      <section id="schedule">
+        <h2>Class Schedule</h2>
+        <ul>
+          <li>Tuesday: 19:30 - 21:00</li>
+          <li>Saturday: 09:00 - 10:30</li>
+        </ul>
+      </section>
+
+      <section id="instructors">
+        <h2>Instructors</h2>
+        <ul>
+          <li>Patricio Marshall</li>
+          <li>John Dyer</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; Kapiti Aikido Club</p>
+  </footer>
+
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menuWrapper = document.querySelector('#menu-wrapper');
+
+    menuToggle.addEventListener('click', () => {
+      menuWrapper.classList.toggle('show-menu');
+    });
+  </script>
+</body>
+
+</html>
